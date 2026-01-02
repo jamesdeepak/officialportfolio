@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepak R | AI & Full Stack Developer</title>
+    <meta name="description"
+        content="Portfolio of Deepak R - AI Developer, Full Stack Engineer & Vibe Coder. Building intelligent, aesthetic web systems.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="dark-mode">
+    <!-- Loading Screen -->
+    <div id="loader" class="loader-container">
+        <div class="loader-content">
+            <div class="typing-dots">
+                <span></span><span></span><span></span>
+            </div>
+            <p>Initializing AI Core...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">DR<span class="dot">.</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content fade-up-stagger">
+                    <span class="greeting">Hello, I'm</span>
+                    <h1 class="name"></h1>
+                    <h2 class="role typed-text"></h2>
+                    <p class="bio">Building intelligent, production-ready web applications with a focus on premium
+                        aesthetics and robust backend logic.</p>
+                    <div class="cta-group">
+                        <a href="#projects" class="btn btn-primary glow-effect">View Work</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in-delayed">
+                    <div class="image-wrapper glass-card">
+                        <img src="assets/profile.jpg" alt="Deepak R" class="profile-pic">
+                        <div class="tech-badge badge-1"><i class="fa-solid fa-brain"></i> AI</div>
+                        <div class="tech-badge badge-2"><i class="fa-solid fa-code"></i> Dev</div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title fade-up">About Me</h2>
+                <div class="about-content grid-2-col">
+                    <div class="about-text fade-up">
+                        <p>I am a B.Tech AI & Data Science student (Class of 2027) with a passion for building
+                            real-world systems. I bridge the gap between advanced AI capabilities and clean, functional
+                            frontend design.</p>
+                        <p>My focus is on "Vibe Coding" - creating applications that not only work flawlessly but feel
+                            premium and responsive. From RAG-based AI systems to dynamic full-stack web apps, I build
+                            with purpose.</p>
+
+                        <div class="education-card glass-card mt-2">
+                            <h3><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                            <p><strong>B.Tech Artificial Intelligence & Data Science</strong></p>
+                            <p>2027 (Expected Graduation)</p>
+                        </div>
+                    </div>
+                    <div class="about-stats fade-up delay-100">
+                        <div class="stat-card glass-card">
+                            <h3>Focus</h3>
+                            <p>AI Application Dev</p>
+                        </div>
+                        <div class="stat-card glass-card">
+                            <h3>Style</h3>
+                            <p>Premium UI/UX</p>
+                        </div>
+                        <div class="stat-card glass-card">
+                            <h3>Tooling</h3>
+                            <p>Modern Stack</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section alt-bg">
+            <div class="container">
+                <h2 class="section-title fade-up">Technical Arsenal</h2>
+
+                <div class="skills-category fade-up">
+                    <h3>Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card"><i class="fa-brands fa-java"></i> Java</div>
+                        <div class="skill-card"><i class="fa-brands fa-python"></i> Python</div>
+                        <div class="skill-card"><i class="fa-brands fa-js"></i> JavaScript</div>
+                        <div class="skill-card"><i class="fa-solid fa-database"></i> SQL (PostgreSQL)</div>
+                        <div class="skill-card"><i class="fa-brands fa-html5"></i> HTML5</div>
+                        <div class="skill-card"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+                    </div>
+                </div>
+
+                <div class="skills-category fade-up delay-100">
+                    <h3>Tools & AI</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card"><i class="fa-solid fa-robot"></i> ChatGPT/DeepSeek</div>
+                        <div class="skill-card"><i class="fa-solid fa-magnifying-glass"></i> Perplexity</div>
+                        <div class="skill-card"><i class="fa-brands fa-figma"></i> Figma AI</div>
+                        <div class="skill-card"><i class="fa-brands fa-git-alt"></i> Git/GitHub</div>
+                        <div class="skill-card"><i class="fa-solid fa-code"></i> VS Code</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title fade-up">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card glass-card fade-up">
+                        <div class="project-header">
+                            <i class="fa-solid fa-laptop-code project-icon"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>AI Engineering Portfolio</h3>
+                            <p>An AI-powered portfolio site with an integrated RAG assistant that answers questions
+                                about my work and skills.</p>
+                            <div class="tags">
+                                <span>HTML/CSS</span>
+                                <span>JS</span>
+                                <span>RAG</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn-sm">Demo</a>
+                                <a href="https://github.com/jamesdeepak" target="_blank"
+                                    class="btn-sm outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- New Project: Tech App AI -->
+                    <div class="project-card glass-card fade-up">
+                        <div class="project-header">
+                            <i class="fa-solid fa-bolt project-icon"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Tech App AI (Bolt)</h3>
+                            <p>A modern AI-powered application built using Bolt.new, demonstrating rapid prototyping and
+                                AI integration capabilities.</p>
+                            <div class="tags">
+                                <span>AI</span>
+                                <span>Web App</span>
+                                <span>Prototyping</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/jamesdeepak/tech-app-ai-bolt.new" target="_blank"
+                                    class="btn-sm outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- New Project: Cardio App -->
+                    <div class="project-card glass-card fade-up">
+                        <div class="project-header">
+                            <i class="fa-solid fa-heart-pulse project-icon"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Cadio App</h3>
+                            <p>A healthcare-focused web application for cardiology, designed to manage patient data or
+                                provide medical insights.</p>
+                            <div class="tags">
+                                <span>Java</span>
+                                <span>Healthcare</span>
+                                <span>Web</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/jamesdeepak/cradio-app" target="_blank"
+                                    class="btn-sm outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- New Project: To-Do List -->
+                    <div class="project-card glass-card fade-up">
+                        <div class="project-header">
+                            <i class="fa-solid fa-list-check project-icon"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Smart To-Do List</h3>
+                            <p>A functional task management application focusing on clean UI/UX and efficient state
+                                management.</p>
+                            <div class="tags">
+                                <span>JavaScript</span>
+                                <span>Productivity</span>
+                                <span>UI/UX</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/jamesdeepak/to-do-list" target="_blank"
+                                    class="btn-sm outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- New Project: Mini Project -->
+                    <div class="project-card glass-card fade-up">
+                        <div class="project-header">
+                            <i class="fa-solid fa-microchip project-icon"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>AI Mini Project</h3>
+                            <p>An experimental mini-project exploring specific AI algorithms or web development
+                                concepts.</p>
+                            <div class="tags">
+                                <span>Experimental</span>
+                                <span>Learning</span>
+                                <span>Code</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/jamesdeepak/miniproject" target="_blank"
+                                    class="btn-sm outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title fade-up">Get In Touch</h2>
+                <div class="contact-wrapper glass-card fade-up">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:jamesdeepak092005@gmail.com">jamesdeepak092005@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/deepak-ai-tech" target="_blank">LinkedIn Profile</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-brands fa-github"></i>
+                            <a href="https://github.com/jamesdeepak" target="_blank">GitHub Profile</a>
+                        </div>
+                    </div>
+                    <div class="resume-download">
+                        <a href="#" class="btn btn-primary"><i class="fa-solid fa-file-arrow-down"></i> Download
+                            Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2027 Deepak R. Built with AI & Passion.</p>
+            <div class="social-links">
+                <a href="https://github.com/jamesdeepak"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/deepak-ai-tech"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- RAG Chatbot Widget -->
+    <div id="ai-assistant-widget" class="ai-widget">
+        <div class="chat-toggle" id="chat-toggle">
+            <i class="fa-solid fa-robot"></i>
+        </div>
+        <div class="chat-window closed" id="chat-window">
+            <div class="chat-header">
+                <div class="header-info">
+                    <span class="status-dot"></span>
+                    <h4>Deepak's AI</h4>
+                </div>
+                <button id="close-chat"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot-message">
+                    Hello! I'm Deepak's AI assistant. Ask me anything about his skills, projects, or experience!
+                </div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="user-input" placeholder="Ask something..." autocomplete="off">
+                <button id="send-btn"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
